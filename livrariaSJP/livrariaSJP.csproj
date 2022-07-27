@@ -33,11 +33,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FlatButton">
+      <HintPath>..\arquivos\JControls\FlatButton.dll</HintPath>
+    </Reference>
     <Reference Include="JDragControl">
       <HintPath>..\arquivos\JControls\JDragControl.dll</HintPath>
     </Reference>
+    <Reference Include="JImageButton">
+      <HintPath>..\arquivos\JControls\JImageButton.dll</HintPath>
+    </Reference>
     <Reference Include="JMaterialTextbox">
       <HintPath>..\arquivos\JControls\JMaterialTextbox.dll</HintPath>
+    </Reference>
+    <Reference Include="JThinButton">
+      <HintPath>..\arquivos\JControls\JThinButton.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
