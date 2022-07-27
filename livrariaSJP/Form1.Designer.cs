@@ -57,6 +57,7 @@
             // btnFechar
             // 
             this.btnFechar.AutoSize = true;
+            this.btnFechar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnFechar.Font = new System.Drawing.Font("Microsoft Tai Le", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFechar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnFechar.Location = new System.Drawing.Point(465, 8);
@@ -136,6 +137,7 @@
             // 
             this.btnEnviar.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.btnEnviar.BackColor = System.Drawing.Color.HotPink;
+            this.btnEnviar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEnviar.FlatAppearance.BorderColor = System.Drawing.Color.HotPink;
             this.btnEnviar.FlatAppearance.BorderSize = 4;
             this.btnEnviar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
@@ -175,6 +177,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Cursor = System.Windows.Forms.Cursors.Help;
             this.label4.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.label4.Location = new System.Drawing.Point(174, 461);
