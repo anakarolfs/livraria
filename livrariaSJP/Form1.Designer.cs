@@ -38,7 +38,7 @@
             this.btnEnviar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.esqSenha = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -174,18 +174,18 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Senha";
             // 
-            // label4
+            // esqSenha
             // 
-            this.label4.AutoSize = true;
-            this.label4.Cursor = System.Windows.Forms.Cursors.Help;
-            this.label4.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label4.Location = new System.Drawing.Point(174, 461);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(143, 21);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "esqueceu a senha ?";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.esqSenha.AutoSize = true;
+            this.esqSenha.Cursor = System.Windows.Forms.Cursors.Help;
+            this.esqSenha.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.esqSenha.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.esqSenha.Location = new System.Drawing.Point(174, 461);
+            this.esqSenha.Name = "esqSenha";
+            this.esqSenha.Size = new System.Drawing.Size(143, 21);
+            this.esqSenha.TabIndex = 6;
+            this.esqSenha.Text = "esqueceu a senha ?";
+            this.esqSenha.Click += new System.EventHandler(this.label4_Click);
             // 
             // Form1
             // 
@@ -194,7 +194,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(504, 516);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.esqSenha);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnEnviar);
@@ -220,7 +220,7 @@
         private JMaterialTextbox.JMaterialTextbox jMaterialTextbox1;
         private JMaterialTextbox.JMaterialTextbox jMaterialTextbox2;
         internal System.Windows.Forms.Button btnEnviar;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label esqSenha;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label btnFechar;
