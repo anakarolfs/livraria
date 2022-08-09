@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "siteLivrariaSJP/1.0.0": {
+        "runtime": {
+          "siteLivrariaSJP.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "siteLivrariaSJP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
