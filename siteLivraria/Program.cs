@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using siteLivraria.Data;
 
 namespace siteLivraria
 {
@@ -11,13 +12,13 @@ namespace siteLivraria
 
         public IConfiguration Configuration { get; }
 
-        public static void Main(string[] args, IConfiguration Configuration)
+        public /* static */ void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-            builder.Services.AddEntityFrameworkSqlServer().AddDbContext<Data.BancoContext>(o => o.UseSqlServer(Configuration.GetConnectionString("DataBase")));
+            builder.Services.AddEntityFrameworkSqlServer().AddDbContext<BancoContext>(o => o.UseSqlServer(Configuration.GetConnectionString("DataBase")));
 
             var app = builder.Build();
 
