@@ -11,13 +11,13 @@ namespace siteLivraria
 
         public IConfiguration Configuration { get; }
 
-        public static void Main(string[] args, IConfiguration configuration)
+        public static void Main(string[] args, IConfiguration Configuration)
         {
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-            builder.Services.AddEntityFrameworkSqlServer().AddDbContext<Data.BancoContext>(o => o.UseSqlServer(configuration.GetConnectionString("DataBase")));
+            builder.Services.AddEntityFrameworkSqlServer().AddDbContext<Data.BancoContext>(o => o.UseSqlServer(Configuration.GetConnectionString("DataBase")));
 
             var app = builder.Build();
 
