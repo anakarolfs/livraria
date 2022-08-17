@@ -1,13 +1,23 @@
+using Microsoft.EntityFrameworkCore;
+
 namespace siteLivraria
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public Program(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
+
+        public IConfiguration Configuration { get; }
+
+        public static void Main(string[] args, IConfiguration configuration)
         {
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddEntityFrameworkSqlServer().AddDbContext<Data.BancoContext>(o => o.UseSqlServer(configuration.GetConnectionString("DataBase")));
 
             var app = builder.Build();
 

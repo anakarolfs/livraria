@@ -2,10 +2,9 @@
 {
     public class HomeModel
     {
-        public String Nome { get; set; }
 
-        public String Email { get; set; }
-
+        public string Nome { get; set; }
+        public string Email { get; set; }
 
     }
 }
