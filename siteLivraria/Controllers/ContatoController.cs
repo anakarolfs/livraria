@@ -51,7 +51,7 @@ namespace siteLivraria.Controllers
             }
             catch (Exception erro)
             {
-                TempData["MensagemErro"] = $"Erro ao Cadastrar Contato! Tente novamente, Detalhe: {erro.Message}";
+                TempData["MensagemErro"] = $"Erro ao Apagar Contato! Tente novamente, Detalhe: {erro.Message}";
                 return RedirectToAction("index");
             }
 

@@ -1,12 +1,12 @@
-﻿@model List<ContatoModel>
+﻿@model List<UsuarioModel>
 @{
-    ViewData["Title"] = "Lista de Contatos";
+    ViewData["Title"] = "Lista de Usuarios";
 }
 
 <div class="text-center">
 
     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        <a class="btn btn-primary" role="button" asp-controller="Contato" asp-action="Criar">Add novo Contato</a>
+        <a class="btn btn-primary" role="button" asp-controller="Usuario" asp-action="Criar">Add novo Usuario</a>
     </div>
     <br/>
 
@@ -29,15 +29,16 @@
 
     <br/>
 
-    <h1 class="display-4">Lista de Contatos</h1>
+    <h1 class="display-4">Lista de Usuarios</h1>
 
-    <table class="table" id="table-contatos">
+    <table class="table" id="table-usuarios" style="width:100%">
       <thead>
         <tr>
           <th scope="col">#</th>
           <th scope="col">Nome</th>
+          <th scope="col">Login</th>
           <th scope="col">Email</th>
-          <th scope="col">Telefone</th>
+          <th scope="col">Data de cadastro</th>
           <th scope="col"></th>
         </tr>
       </thead>
@@ -45,21 +46,26 @@
 
             @if(Model != null && Model.Any())
             {
-                foreach(ContatoModel listContato in Model)
+                foreach(UsuarioModel listUsuario in Model)
                 {
                     <tr>
-                      <th scope="row">@listContato.id</th>
-                      <td>@listContato.nome</td>
-                      <td>@listContato.email</td>
-                      <td>@listContato.telefone</td>
+                      <th scope="row">@listUsuario.id</th>
+                      <td>@listUsuario.nome</td>
+                      <td>@listUsuario.login</td>
+                      <td>@listUsuario.email</td>
+                      <td>@listUsuario.dataCadastro</td>
                       <td>
                           <div class="btn-group" role="group">
-                              <a role="button" class="btn btn-primary" asp-route-id="@listContato.id" asp-controller="Contato" asp-action="Editar" >Editar</a>
-                              <a role="button" class="btn btn-danger" asp-route-id="@listContato.id" asp-controller="Contato" asp-action="ApagarConfirmacao" >Apagar</a>
+                              <a role="button" class="btn btn-primary" asp-route-id="@listUsuario.id" asp-controller="Usuario" asp-action="Editar" >Editar</a>
+                              <a role="button" class="btn btn-danger" asp-route-id="@listUsuario.id" asp-controller="Usuario" asp-action="ApagarConfirmacao" >Apagar</a>
                             </div>
                       </td>
                     </tr>
                 }
+            }
+            else
+            {
+                <tr class="odd"><td valign="top" colspan="5">Nenhum Usuario Encontrado</td></tr>
             }
 
       </tbody>

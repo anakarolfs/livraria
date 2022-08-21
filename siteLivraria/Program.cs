@@ -19,6 +19,7 @@ namespace siteLivraria
                 ("Data Source=LAPTOP-GVC6IS5K;Initial catalog=Contatos;Integrated Security=False;User ID=sa;Password=teste;connect Timeout=15;Encrypt=False;TrustServerCertificate=False"));
 
             builder.Services.AddScoped<IContatoRepository, ContatoRepository>();
+            builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 
             var app = builder.Build();
 
