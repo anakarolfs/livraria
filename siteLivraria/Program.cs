@@ -5,20 +5,17 @@ namespace siteLivraria
 {
     public class Program
     {
-        public Program(IConfiguration configuration)
-        {
-            Configuration = configuration;
-        }
 
-        public IConfiguration Configuration { get; }
-
-        public /* static */ void Main(string[] args)
+        public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-            builder.Services.AddEntityFrameworkSqlServer().AddDbContext<BancoContext>(o => o.UseSqlServer(Configuration.GetConnectionString("DataBase")));
+
+            builder.Services.AddDbContext<BancoContext>
+                (options => options.UseSqlServer
+                ("Data Source=LAPTOP-GVC6IS5K;Initial catalog=Contatos;Integrated Security=False;User ID=sa;Password=teste;connect Timeout=15;Encrypt=False;TrustServerCertificate=False"));
 
             var app = builder.Build();
 
