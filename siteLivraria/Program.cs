@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using siteLivraria.Data;
+using siteLivraria.repository;
 
 namespace siteLivraria
 {
@@ -16,6 +17,8 @@ namespace siteLivraria
             builder.Services.AddDbContext<BancoContext>
                 (options => options.UseSqlServer
                 ("Data Source=LAPTOP-GVC6IS5K;Initial catalog=Contatos;Integrated Security=False;User ID=sa;Password=teste;connect Timeout=15;Encrypt=False;TrustServerCertificate=False"));
+
+            builder.Services.AddScoped<IContatoRepository, ContatoRepository>();
 
             var app = builder.Build();
 
