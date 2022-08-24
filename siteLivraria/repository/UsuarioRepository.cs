@@ -10,6 +10,12 @@ namespace siteLivraria.repository
         {
             _bancoContext = bancoContext;
         }
+
+        public UsuarioModel BuscarPorLogin(string login)
+        {
+            return _bancoContext.Usuarios.FirstOrDefault(x => x.login.ToUpper() == login.ToUpper());
+        }
+
         public UsuarioModel ListarPorId(int id)
         {
             return _bancoContext.Usuarios.FirstOrDefault(x => x.id == id);
@@ -58,5 +64,6 @@ namespace siteLivraria.repository
 
             return true;
         }
+
     }
 }

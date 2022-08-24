@@ -24,5 +24,10 @@ namespace siteLivraria.Models
         public string senha { get; set; }
         public DateTime dataCadastro { get; set; }  
         public DateTime? dataAtualizacao { get; set; }
+
+        public bool SenhaValida(string Senha)
+        {
+            return senha == Senha;
+        }
     }
 }

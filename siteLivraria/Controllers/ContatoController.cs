@@ -47,12 +47,12 @@ namespace siteLivraria.Controllers
                     TempData["MensagemErro"] = "Erro ao Apagar Contato! Tente novamente.";
                 }
 
-                return RedirectToAction("index");
+                return RedirectToAction("Index");
             }
             catch (Exception erro)
             {
                 TempData["MensagemErro"] = $"Erro ao Apagar Contato! Tente novamente, Detalhe: {erro.Message}";
-                return RedirectToAction("index");
+                return RedirectToAction("Index");
             }
 
         }
