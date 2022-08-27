@@ -8,81 +8,81 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = siteLivraria
 build_property.RootNamespace = siteLivraria
-build_property.ProjectDir = C:\PROJETOS\livrariaSJP\siteLivraria\
+build_property.ProjectDir = C:\PROJETOS\livraria\siteLivraria\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\PROJETOS\livrariaSJP\siteLivraria
+build_property.MSBuildProjectDirectory = C:\PROJETOS\livraria\siteLivraria
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/PROJETOS/livrariaSJP/siteLivraria/Views/Contato/ApagarConfirmacao.cshtml]
+[C:/PROJETOS/livraria/siteLivraria/Views/Contato/ApagarConfirmacao.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xBcGFnYXJDb25maXJtYWNhby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROJETOS/livrariaSJP/siteLivraria/Views/Contato/Criar.cshtml]
+[C:/PROJETOS/livraria/siteLivraria/Views/Contato/Criar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xDcmlhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROJETOS/livrariaSJP/siteLivraria/Views/Contato/Editar.cshtml]
+[C:/PROJETOS/livraria/siteLivraria/Views/Contato/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROJETOS/livrariaSJP/siteLivraria/Views/Contato/Index.cshtml]
+[C:/PROJETOS/livraria/siteLivraria/Views/Contato/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROJETOS/livrariaSJP/siteLivraria/Views/Home/Index.cshtml]
+[C:/PROJETOS/livraria/siteLivraria/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROJETOS/livrariaSJP/siteLivraria/Views/Home/Privacy.cshtml]
+[C:/PROJETOS/livraria/siteLivraria/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROJETOS/livrariaSJP/siteLivraria/Views/Login/Index.cshtml]
+[C:/PROJETOS/livraria/siteLivraria/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROJETOS/livrariaSJP/siteLivraria/Views/Shared/Components/Menu/Default.cshtml]
+[C:/PROJETOS/livraria/siteLivraria/Views/Shared/Components/Menu/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWVudVxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROJETOS/livrariaSJP/siteLivraria/Views/Shared/Error.cshtml]
+[C:/PROJETOS/livraria/siteLivraria/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROJETOS/livrariaSJP/siteLivraria/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/PROJETOS/livraria/siteLivraria/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROJETOS/livrariaSJP/siteLivraria/Views/Usuario/ApagarConfirmacao.cshtml]
+[C:/PROJETOS/livraria/siteLivraria/Views/Usuario/ApagarConfirmacao.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xBcGFnYXJDb25maXJtYWNhby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROJETOS/livrariaSJP/siteLivraria/Views/Usuario/Criar.cshtml]
+[C:/PROJETOS/livraria/siteLivraria/Views/Usuario/Criar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmlhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROJETOS/livrariaSJP/siteLivraria/Views/Usuario/Editar.cshtml]
+[C:/PROJETOS/livraria/siteLivraria/Views/Usuario/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROJETOS/livrariaSJP/siteLivraria/Views/Usuario/Index.cshtml]
+[C:/PROJETOS/livraria/siteLivraria/Views/Usuario/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROJETOS/livrariaSJP/siteLivraria/Views/_ViewImports.cshtml]
+[C:/PROJETOS/livraria/siteLivraria/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROJETOS/livrariaSJP/siteLivraria/Views/_ViewStart.cshtml]
+[C:/PROJETOS/livraria/siteLivraria/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PROJETOS/livrariaSJP/siteLivraria/Views/Shared/_Layout.cshtml]
+[C:/PROJETOS/livraria/siteLivraria/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-sd7vxxh68y
 
-[C:/PROJETOS/livrariaSJP/siteLivraria/Views/Shared/_LayoutLogin.cshtml]
+[C:/PROJETOS/livraria/siteLivraria/Views/Shared/_LayoutLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-9170mamxwd

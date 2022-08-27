@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5fWarYCwInixAnLfBSR7r6KPKb4hqVq604Qx3VSMORsMudFSJeRqYA/dUMbtu/C8GqHRqyvA/0v+b0NIhk487g==",
+  "dgSpecHash": "bfV69DOwamJoL0dkeiheFV7hr2m8SbHrwI2T6YGWnNc8oKKzB2wVFt9SI765R1ABEMH2NmXNImtcBDZ4nWzJ8g==",
   "success": true,
-  "projectFilePath": "C:\\PROJETOS\\livrariaSJP\\siteLivraria\\siteLivraria.csproj",
+  "projectFilePath": "C:\\PROJETOS\\livraria\\siteLivraria\\siteLivraria.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anafe\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\anafe\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
