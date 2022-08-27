@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using siteLivraria.Data;
+using siteLivraria.Helper;
 using siteLivraria.repository;
 
 namespace siteLivraria
@@ -18,10 +19,19 @@ namespace siteLivraria
                 (options => options.UseSqlServer
                 ("Data Source=LAPTOP-GVC6IS5K;Initial catalog=Contatos;Integrated Security=False;User ID=sa;Password=teste;connect Timeout=15;Encrypt=False;TrustServerCertificate=False"));
 
+            builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
             builder.Services.AddScoped<IContatoRepository, ContatoRepository>();
             builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            builder.Services.AddScoped<Isessao, Sessao>();
 
-            var app = builder.Build();
+            builder.Services.AddSession(o =>
+            {
+                o.Cookie.HttpOnly = true;
+                o.Cookie.IsEssential = true;
+            });
+
+           var app = builder.Build();
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -37,6 +47,8 @@ namespace siteLivraria
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseSession();
 
             app.MapControllerRoute(
                 name: "default",
