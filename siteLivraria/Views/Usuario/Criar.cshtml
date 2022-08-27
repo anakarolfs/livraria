@@ -1,0 +1,52 @@
+﻿@using siteLivraria.Enums
+@model UsuarioModel
+@{
+    ViewData["Title"] = "Criar Usuario";
+}
+
+<div class="text-center">
+
+    <h1 class="display-4">Cadastar Usuario</h1>
+
+</div>
+
+    <form asp-controller="Usuario" asp-action="Criar" method="post">
+
+      <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" asp-for="nome" class="form-control" placeholder="Digite seu Nome">
+        @Html.ValidationMessageFor(x => x.nome)
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" asp-for="email" class="form-control" placeholder="Digite seu Email">
+        @Html.ValidationMessageFor(x => x.email)
+      </div>
+
+      <div class="form-group">
+        <label for="telefone">Login</label>
+        <input type="text" asp-for="login"  class="form-control" placeholder="Digite seu Telefone">
+        @Html.ValidationMessageFor(x => x.login)
+      </div>
+
+      <div class="form-group">
+        <label for="telefone">Perfil</label>
+        <select asp-for="perfil" class="form-control" >
+            <option value=""> Selecione </option>
+            <option value="@PerfilEnum.Admin"> Administrador </option>
+            <option value="@PerfilEnum.Padrao"> Padrão </option>
+        </select>
+            @Html.ValidationMessageFor(x => x.perfil)
+      </div>
+
+      <div class="form-group">
+        <label for="telefone">Senha</label>
+        <input type="password" asp-for="senha"  class="form-control" placeholder="Digite seu Telefone">
+        @Html.ValidationMessageFor(x => x.senha)
+      </div>
+
+      <button type="submit" class="btn btn-primary d-grid gap-2">Adicionar</button>
+      <a class="btn btn-secondary btn-block" asp-controller="Usuario" asp-action="Index" role="button">Voltar</a>
+
+    </form>
