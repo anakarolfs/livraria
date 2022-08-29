@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using siteLivraria.Filters;
 using siteLivraria.Models;
 using siteLivraria.repository;
 
 namespace siteLivraria.Controllers
 {
+    [PgRestritaAdmin]
     public class UsuarioController : Controller
     {
         private readonly IUsuarioRepository _usuarioRepository;

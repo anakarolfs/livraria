@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using siteLivraria.Filters;
 using siteLivraria.Models;
 using System.Diagnostics;
 
@@ -6,6 +7,7 @@ namespace siteLivraria.Controllers
 {
     public class HomeController : Controller
     {
+        [PgUsuarioLogado]
         /*
         private readonly ILogger<HomeController> _logger;
 

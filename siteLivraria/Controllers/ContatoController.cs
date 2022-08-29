@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using siteLivraria.Filters;
 using siteLivraria.Models;
 using siteLivraria.repository;
 
 namespace siteLivraria.Controllers
 {
+    [PgUsuarioLogado]
     public class ContatoController : Controller
     {
         private readonly IContatoRepository _contatoRepository;
