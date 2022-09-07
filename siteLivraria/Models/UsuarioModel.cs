@@ -1,4 +1,5 @@
 ﻿using siteLivraria.Enums;
+using siteLivraria.Helper;
 using System.ComponentModel.DataAnnotations;
 
 namespace siteLivraria.Models
@@ -27,7 +28,12 @@ namespace siteLivraria.Models
 
         public bool SenhaValida(string Senha)
         {
-            return senha == Senha;
+            return senha == Senha.GerarHash();
+        }
+
+        public void SetSenhaHash()
+        {
+            senha = senha.GerarHash();
         }
     }
 }

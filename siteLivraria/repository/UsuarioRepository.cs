@@ -28,7 +28,8 @@ namespace siteLivraria.repository
         {
            // throw new NotImplementedException();
            //gravar no banco de dados
-           usuario.dataCadastro = DateTime.Now;
+            usuario.dataCadastro = DateTime.Now;
+            usuario.SetSenhaHash();  
            _bancoContext.Usuarios.Add(usuario);
            _bancoContext.SaveChanges();
 
