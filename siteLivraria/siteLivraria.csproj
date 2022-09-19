@@ -26,4 +26,14 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\img\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\perfil.css" />
+    <None Include="wwwroot\img\logoLivraria.png" />
+    <None Include="wwwroot\img\logoLivrariaPeq.png" />
+  </ItemGroup>
+
 </Project>

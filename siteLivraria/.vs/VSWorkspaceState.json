@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ViewComponents"
+    "\\ViewComponents",
+    "\\Views",
+    "\\Views\\Login"
   ],
   "SelectedNode": "\\siteLivraria.sln",
   "PreviewInSolutionExplorer": false
