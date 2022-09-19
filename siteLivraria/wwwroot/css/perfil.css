@@ -8,6 +8,7 @@ for details on configuring this project to bundle and minify static web assets. 
         .pb-3 {
             display: flex;
             justify-content: center;
+            margin: 5%;
         }
 
         .flex-container {
@@ -30,10 +31,11 @@ for details on configuring this project to bundle and minify static web assets. 
             width: 55%;
             height: 67vh;
             background: url("../img/logoLivraria.png") transparent no-repeat bottom center scroll;
+            border-radius: 10px;
             /*  background: url("C:/Users/anafe/OneDrive/Área de Trabalho/login teste/images/logoLivraria.png") transparent no-repeat bottom center scroll; */
         }
 
-        @media only screen and (max-width: 1200px) {
+        @media only screen and (max-width: 1400px) {
 
             .flex-container {
                 margin: 7%;
