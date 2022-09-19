@@ -34,7 +34,8 @@ for details on configuring this project to bundle and minify static web assets. 
         }
 
         media only screen and (max-width: 1200px) {
-            .container {
+
+            .flex-container {
                 margin: 7%;
                 width: 80%;
                 height: 80vh;
